@@ -51,7 +51,7 @@ Beyond coding, I lead a vibrant tech community of 200+ students as GDSC EPITA or
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaridinarene&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaridi&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" />
 </p>
 
 ---
