@@ -1,51 +1,59 @@
-# 👋 Hi, I'm Amar Idinarene
+# 👋 Hi there! I'm **Amar Idinarene**
 
-🎓 2nd-year Computer Science student at **EPITA**, one of France’s top engineering schools (Master’s level)  
-🌍 Former exchange student at **San Francisco State University**, USA  
-👨‍💻 iOS App Developer | GDSC Organizer | Tech Enthusiast  
-🔐 Future Cybersecurity & Systems Engineer  
+**2nd-year Computer Science student @ EPITA (🇫🇷) | Former Exchange Student @ San Francisco State University (🇺🇸)**
 
----
+I’m passionate about crafting technology that solves real-world problems — from low-level system programming in C to building sleek iOS apps in Swift. When I’m not coding, I organize the Google Developer Student Club at EPITA, bringing together a vibrant community of 200+ tech enthusiasts.
 
-## 💡 About Me
+> *“Building software that’s not only functional, but meaningful.”*
 
-I'm passionate about building tech that solves real-world problems. From developing games in C# to designing optimization algorithms and financial tools in Python, I love exploring the full spectrum of software development.
-
-- 💻 Strong foundation in C, C++, Python, JavaScript, and C#
-- 🛠️ Experience with Git, Linux/UNIX, and command-line tools
-- 🌐 Built projects involving system programming, algorithms, and UI/UX
-- 📢 Lead Organizer of **Google Developer Student Club – EPITA**, building a 200+ student tech community
+💼 **Actively seeking — Software Engineering internships (Summer/Fall 2025)**, ideally in mobile development, cybersecurity, or systems engineering. Open to remote or onsite opportunities!
 
 ---
 
-## 🌍 Experience & Interests
+## 🚀 What I'm building / exploring
 
-- 🔄 Systems Programming & Automation  
-- 📱 Mobile App Development (iOS/Swift)  
-- 🔐 Cybersecurity Fundamentals (preparing for specialization)  
-- 🎮 Game Development & Algorithms  
-- 🎙️ Public Speaking & Community Leadership  
-- 🧠 Always learning, always building
+|                                |                                                                                      |
+| ------------------------------ | ------------------------------------------------------------------------------------ |
+| **🛠️ Word Grid Solver**         | Optimization-based C program solving crossword grids automatically                    |
+| **📱 iOS Apps**                 | Swift/SwiftUI projects focused on user-friendly mobile experiences                   |
+| **🔐 Cybersecurity Fundamentals** | Preparing for specialization in cybersecurity and systems engineering                 |
+| **🎮 Game Development**          | 2D interactive games in C# leveraging object-oriented design                          |
+| **📊 Finance Manager**           | Python-based app for managing and analyzing personal financial data                  |
 
----
-
-## 🚀 Projects Worth Checking Out
-
-<!-- Replace the below with actual links to your repos -->
-- 🔢 **Word Grid Solver** – Optimization-based C program to auto-solve crossword grids  
-- 💸 **Finance Manager** – Python-based app for managing and analyzing financial data  
-- 🎮 **C# Game Project** – A simple but fun 2D interactive game built with object-oriented logic
-
-> *(More projects coming soon — currently working on mobile and system-level tools.)*
+Besides coding, I lead the GDSC EPITA community and constantly explore new tools and technologies to level up my skills.
 
 ---
 
-## 📫 Let's Connect
+## 🛠️ Toolbox
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/amaridi)
-- 📬 amar.idinarene@epita.fr  
-- 🌐 Always open to collaboration, internships, and learning opportunities!
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)  
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)  
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  
 
 ---
 
-⭐️ *Thanks for visiting my GitHub! Don't forget to check out my pinned projects.*
+## ✨ Featured Projects
+
+| Project                   | Stack                  | Brief Description                                                      |
+| ------------------------- | ---------------------- | -------------------------------------------------------------------- |
+| **Word Grid Solver**       | C / Optimization       | Auto-solve crossword grids with a performant backtracking algorithm  |
+| **Finance Manager**        | Python / Data Analysis | Manage & visualize personal finances with interactive charts        |
+| **2D C# Game Project**     | C# / OOP               | A simple but engaging interactive game built using object-oriented design  |
+
+More projects coming soon — currently focused on iOS apps and system-level tools.
+
+---
+
+## 🤝 Connect with me
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaridinarene)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amaridinarene)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amar.idinarene@epita.fr)  
+
+<sub>Building tech, empowering communities, and always learning.</sub>
+
