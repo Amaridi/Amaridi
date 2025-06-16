@@ -46,8 +46,8 @@ Beyond coding, I lead a vibrant tech community of 200+ students as GDSC EPITA or
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amaridinarene&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="Amar's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amaridinarene&theme=tokyonight" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Amaridi&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="Amar's GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amaridi&theme=tokyonight" alt="GitHub Streak" width="48%" />
 </p>
 
 <p align="center">
