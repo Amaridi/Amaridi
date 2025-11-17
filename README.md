@@ -23,21 +23,13 @@ My work combines **engineering discipline**, **data-driven thinking**, and **cle
 
 ## 🧠 Featured Projects
 
-### 🔹 **Finance Predict-Action (AI LTM)**
-**Python / Machine Learning / Long-Term Modeling**  
-AI system that analyzes long-term market patterns, detects structural signals, and suggests actionable strategies.
+| Project | Tech | One-line summary |
+|---|---:|---|
+| 🔹 **Finance Predict-Action** | Python · TensorFlow / Keras · yfinance | LSTM-based local DL project to forecast next-day close prices and suggest actions. |
+| 🔹 **Word Grid Solver** | C · Algorithm Optimization | Ultra-optimized crossword solver using heuristics & pruning. |
+| 🔹 **Finance Manager Dashboard** | Python · Data Viz · Jupyter | Interactive dashboards for spending analysis and automated categorization. |
+| 🔹 **iOS App (Prototype)** | Swift · SwiftUI | High-performance mobile UI with clean architecture and reactive patterns. |
 
-### 🔹 **Word Grid Solver**
-**C / Algorithm Optimization / Backtracking**  
-An ultra-optimized solver for crossword-style grids using heuristics, pruning, and custom search strategies.
-
-### 🔹 **Finance Manager Dashboard**
-**Python / Data Visualization**  
-Clear financial insights with visual dashboards, spending analysis, and automated categorization.
-
-### 🔹 **iOS App Development**
-**Swift / SwiftUI**  
-Building high-performance mobile interfaces with reactive design and clean architecture.
 
 ---
 
