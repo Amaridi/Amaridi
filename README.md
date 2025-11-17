@@ -23,7 +23,6 @@ My work combines **engineering discipline**, **data-driven thinking**, and **cle
 
 # 🧠 Projects Overview
 
-Voici le tableau mis à jour avec tous tes projets, y compris **malloc** et **serveur HTTP**.
 
 | Project                               | Description                                                                                                                                                | Tech                         |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
