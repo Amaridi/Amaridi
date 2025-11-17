@@ -4,7 +4,7 @@
 
 * 🎓 3rd-year Computer Science Engineering Student @ **[EPITA](https://www.epita.fr/)** (ING1)
 * 🇺🇸 Former Exchange Student @ **[San Francisco State University](https://www.sfsu.edu/)**
-* 🧑‍💻 Organizer @ **[Google Developer Student Club (GDSC) EPITA](https://gdsc.community.dev/epita-paris/)** (leading 200+ students)
+* 🧑‍💻 Organizer @ **[Google Developer Student Club (GDSC) EPITA]([https://gdsc.community.dev/epita-paris/](https://gdg.community.dev/gdg-on-campus-epita-paris-france/)** (leading 200+ students)
 
 I design and build scalable, efficient, and intelligent software — from low-level algorithmic systems in C to applied machine learning, data-driven solutions, and polished mobile applications.
 
