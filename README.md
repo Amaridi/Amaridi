@@ -36,12 +36,6 @@ Voici le tableau mis à jour avec tous tes projets, y compris **malloc** et **se
 
 ---
 
-Si tu veux, je peux aussi :
-
-* ajouter une colonne **status** (Done / In Progress / Planned),
-* ajouter les **liens GitHub**,
-* rendre le tableau plus stylé (logos, emojis, sections séparées),
-* ou le transformer en version "CV".
 
 
 ---
