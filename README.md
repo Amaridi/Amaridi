@@ -66,9 +66,15 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaridi&theme=tokyonight&hide_border=true&layout=compact" />
+
+<br><br>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amaridi&theme=tokyo-night&hide_border=true" width="100%" />
 
 </div>
+
+---
 
 ---
 
