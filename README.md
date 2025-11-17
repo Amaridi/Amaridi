@@ -20,6 +20,7 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 * **Data & Automation:** Data engineering, analytics, dashboards, and AI-enhanced tools.
 
 ---
+---
 
 # 🧠 Projects Overview
 
