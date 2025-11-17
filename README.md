@@ -21,14 +21,27 @@ My work combines **engineering discipline**, **data-driven thinking**, and **cle
 
 ---
 
-## 🧠 Featured Projects
+# 🧠 Projects Overview
 
-| Project | Tech | One-line summary |
-|---|---:|---|
-| 🔹 **Finance Predict-Action** | Python · TensorFlow / Keras · yfinance | LSTM-based local DL project to forecast next-day close prices and suggest actions. |
-| 🔹 **Word Grid Solver** | C · Algorithm Optimization | Ultra-optimized crossword solver using heuristics & pruning. |
-| 🔹 **Finance Manager Dashboard** | Python · Data Viz · Jupyter | Interactive dashboards for spending analysis and automated categorization. |
-| 🔹 **iOS App (Prototype)** | Swift · SwiftUI | High-performance mobile UI with clean architecture and reactive patterns. |
+Voici le tableau mis à jour avec tous tes projets, y compris **malloc** et **serveur HTTP**.
+
+| Project                               | Description                                                                                                                                                | Tech                         |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| **Finance Predict-Action (AI LSTM)**  | LSTM forecasting model for stock closing prices (1-day horizon). Full pipeline: data collection, preprocessing, feature engineering, training, evaluation. | Python, TensorFlow, yfinance |
+| **Word Grid Solver**                  | Optimized backtracking solver for word grids with heuristics & pruning.                                                                                    | C                            |
+| **Finance Manager Dashboard**         | Visual dashboard for spending analysis and automatic categorization.                                                                                       | Python, DataViz              |
+| **iOS App Development**               | High-performance mobile UI with clean architecture (SwiftUI).                                                                                              | Swift, SwiftUI               |
+| **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing.                                          | C, Systems                   |
+| **HTTP Server Implementation**        | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling.                                                             | C, Networking                |
+
+---
+
+Si tu veux, je peux aussi :
+
+* ajouter une colonne **status** (Done / In Progress / Planned),
+* ajouter les **liens GitHub**,
+* rendre le tableau plus stylé (logos, emojis, sections séparées),
+* ou le transformer en version "CV".
 
 
 ---
