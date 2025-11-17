@@ -1,67 +1,88 @@
 # 👋 Hi, I'm **Amar Idinarene**
 
-**2nd-year Computer Science student @ EPITA (🇫🇷) | Former Exchange Student @ San Francisco State University (🇺🇸)**  
-iOS Developer | Google Developer Student Club Organizer | Future Cybersecurity & Systems Engineer
+**Software Engineer specializing in AI & Systems**  
+3rd-year Computer Science Engineering Student @ EPITA (ING1)  
+Former Exchange Student @ San Francisco State University (🇺🇸)
 
 ---
 
-> *“Passionate about building tech that solves real-world problems — from system-level programming to mobile apps.”*
-
-I enjoy exploring the entire software spectrum:  
-🔹 Low-level algorithms and optimization in C  
-🔹 Object-oriented design and game development in C#  
-🔹 Data analysis and finance management apps in Python  
-🔹 iOS apps with Swift and SwiftUI  
-🔹 Preparing myself for a future in cybersecurity and systems engineering  
-
-Beyond coding, I lead a vibrant tech community of 200+ students as GDSC EPITA organizer and love sharing knowledge through talks and workshops.
+I build scalable, efficient, and intelligent software — from algorithmic systems in C to applied machine learning and modern mobile applications.  
+My work combines **engineering discipline**, **data-driven thinking**, and **clean product-focused design**.
 
 ---
 
-## 🚀 Current Projects & Focus
+## 🚀 Core Focus: Software Engineering & Applied AI
 
-| Project                   | Tech Stack                | Description                                                              |
-|---------------------------|---------------------------|--------------------------------------------------------------------------|
-| **🧩 Word Grid Solver**     | C / Algorithm Optimization | Auto-solving crossword puzzles with backtracking and heuristics         |
-| **💸 Finance Manager**      | Python / Data Visualization | Manage and analyze personal finances with intuitive visual dashboards   |
-| **🎮 2D Game Project**      | C# / Unity                | Simple but fun interactive game with OOP concepts                        |
-| **📱 iOS App Development**  | Swift / SwiftUI           | Building polished, user-centered mobile applications                     |
-
----
-
-## 🛠️ Tech & Tools I Use
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+- Scalable system-level development (C, C++, low-level optimization)  
+- Applied machine learning and long-term sequence modeling  
+- Data engineering, dashboards & analytics  
+- High-quality mobile development with Swift & SwiftUI  
+- AI-enhanced tools and automation
 
 ---
 
-## 📊 GitHub Stats
+## 🧠 Featured Projects
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Amaridi&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="Amar's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amaridi&theme=tokyonight" alt="GitHub Streak" width="48%" />
-</p>
+### 🔹 **Finance Predict-Action (AI LTM)**
+**Python / Machine Learning / Long-Term Modeling**  
+AI system that analyzes long-term market patterns, detects structural signals, and suggests actionable strategies.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amaridi&theme=github-compact" alt="GitHub Activity Graph" width="100%" />
-</p>
+### 🔹 **Word Grid Solver**
+**C / Algorithm Optimization / Backtracking**  
+An ultra-optimized solver for crossword-style grids using heuristics, pruning, and custom search strategies.
+
+### 🔹 **Finance Manager Dashboard**
+**Python / Data Visualization**  
+Clear financial insights with visual dashboards, spending analysis, and automated categorization.
+
+### 🔹 **iOS App Development**
+**Swift / SwiftUI**  
+Building high-performance mobile interfaces with reactive design and clean architecture.
 
 ---
 
-## 🤝 Let’s Connect!
+## 🛠️ Tech Stack
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaridinarene)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amaridinarene)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amar.idinarene@epita.fr)  
+**Languages:** C, C++, Python, Swift, C#, JavaScript  
+**Domains:** Software Engineering • Machine Learning • Data Science • Systems • Mobile  
+**Tools:** Git • Linux • Docker • Xcode • VSCode • Unity • Jupyter  
 
 ---
 
-<sub>Building bridges between low-level systems and elegant user experiences — one line of code at a time.</sub>
+## 📊 GitHub Insights
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Amaridi&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&include_all_commits=true&count_private=true" width="48%" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Amaridi&theme=tokyonight&hide_border=true" width="48%" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=Amaridi&theme=tokyonight&no-frame=true&row=1&margin-w=10" width="100%" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amaridi&theme=tokyo-night&hide_border=true" width="100%" />
+
+</div>
+
+---
+
+## 🏆 Highlights & Achievements
+
+- Selected as an **international exchange student** in the US  
+- Organizer of **Google Developer Student Club @ EPITA** (+200 students)  
+- Built optimized algorithms, ML models, and real mobile experiences  
+- Experience presenting workshops, leading tech communities, and teaching concepts  
+- Comfortable working in fast-paced, international engineering environments  
+
+---
+
+## 🤝 Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/amaridinarene)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amaridinarene)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail)](mailto:amar.idinarene@epita.fr)
+
+---
+
+<sub>Engineering intelligent systems with clarity, precision, and purpose.</sub>
