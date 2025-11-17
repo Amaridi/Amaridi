@@ -2,34 +2,36 @@
 
 **Software Engineer | AI & Systems Enthusiast | Creative Technologist**
 
-3rd-year Computer Science Engineering Student @ EPITA (ING1)Former Exchange Student @ San Francisco State University (🇺🇸)Organizer @ Google Developer Student Club EPITA (GDSC)
+* 🎓 3rd-year Computer Science Engineering Student @ **[EPITA](https://www.epita.fr/)** (ING1)
+* 🇺🇸 Former Exchange Student @ **[San Francisco State University](https://www.sfsu.edu/)**
+* 🧑‍💻 Organizer @ **[Google Developer Student Club (GDSC) EPITA](https://gdsc.community.dev/epita-paris/)** (leading 200+ students)
 
 I design and build scalable, efficient, and intelligent software — from low-level algorithmic systems in C to applied machine learning, data-driven solutions, and polished mobile applications.
 
-Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling projects that combine engineering discipline, aesthetic design, and real-world impact. I lead a vibrant tech community of 200+ students at GDSC EPITA, sharing knowledge through talks, workshops, and collaborative projects.
+Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling projects that combine engineering discipline, aesthetic design, and real-world impact. I lead a vibrant tech community at GDSC EPITA, sharing knowledge through talks, workshops, and collaborative projects.
+
 ---
 
 ## 🚀 Core Focus: Software Engineering & Applied AI
 
-- Scalable system-level development (C, C++, low-level optimization)  
-- Applied machine learning and long-term sequence modeling  
-- Data engineering, dashboards & analytics  
-- High-quality mobile development with Swift & SwiftUI  
-- AI-enhanced tools and automation
+* **Systems & Low-Level:** Scalable C/C++ development and low-level optimization.
+* **Applied Machine Learning:** Deep Learning, sequence modeling (LSTMs), and data-driven solutions.
+* **Mobile Development:** High-quality, native mobile applications with Swift & SwiftUI.
+* **Data & Automation:** Data engineering, analytics, dashboards, and AI-enhanced tools.
 
 ---
 
 # 🧠 Projects Overview
 
 
-| Project                               | Description                                                                                                                                                | Tech                         |
+| Project                               | Description                                                        S                                                                    | Tech                         |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| **Finance Predict-Action (AI LSTM)**  | LSTM forecasting model for stock closing prices (1-day horizon). Full pipeline: data collection, preprocessing, feature engineering, training, evaluation. | Python, TensorFlow, yfinance |
-| **Word Grid Solver**                  | Optimized backtracking solver for word grids with heuristics & pruning.                                                                                    | C                            |
-| **Finance Manager Dashboard**         | Visual dashboard for spending analysis and automatic categorization.                                                                                       | Python, DataViz              |
-| **iOS App Development**               | High-performance mobile UI with clean architecture (SwiftUI).                                                                                              | Swift, SwiftUI               |
-| **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing.                                          | C, Systems                   |
-| **HTTP Server Implementation**        | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling.                                                             | C, Networking                |
+| **Finance Predict-Action (AI LSTM)**  | LSTM forecasting model for stock closing prices (1-day horizon). Full pipeline: data collection, preprocessing, feature engineering, training, evaluation. | Python, TensorFlow, yfinance |
+| **Word Grid Solver**                  | Optimized backtracking solver for word grids with heuristics & pruning.                                                                                    | C                            |
+| **Finance Manager Dashboard**         | Visual dashboard for spending analysis and automatic categorization.                                                                                       | Python, DataViz              |
+| **iOS App Development**               | High-performance mobile UI with clean architecture (SwiftUI).    _                                                                               | Swift, SwiftUI               |
+| **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing.              _                         | C, Systems                   |
+| **HTTP Server Implementation**        | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling.                                                             | C, Networking      _          |
 
 ---
 
@@ -39,9 +41,9 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 
 ## 🛠️ Tech Stack
 
-**Languages:** C, C++, Python, Swift, C#, JavaScript  
-**Domains:** Software Engineering • Machine Learning • Data Science • Systems • Mobile  
-**Tools:** Git • Linux • Docker • Xcode • VSCode • Unity • Jupyter  
+**Languages:** C, C++, Python, Swift, C#, JavaScript  
+**Domains:** Software Engineering • Machine Learning • Data Science • Systems • Mobile  
+**Tools:** Git • Linux • Docker • Xcode • VSCode • Unity • JupyterB
 
 ---
 
@@ -65,18 +67,18 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 
 ## 🏆 Highlights & Achievements
 
-- Selected as an **international exchange student** in the US  
-- Organizer of **Google Developer Student Club @ EPITA** (+200 students)  
-- Built optimized algorithms, ML models, and real mobile experiences  
-- Experience presenting workshops, leading tech communities, and teaching concepts  
-- Comfortable working in fast-paced, international engineering environments  
+- Selected as an **international exchange student** in the US  
+- Organizer of **Google Developer Student Club @ EPITA** (+200 students)  
+- Built optimized algorithms, ML models, and real mobile experiences  
+- Experience presenting workshops, leading tech communities, and teaching concepts  
+- Comfortable working in fast-paced, international engineering environments  
 
 ---
 
 ## 🤝 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/amaridinarene)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amaridinarene)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/amaridinarene)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amaridinarene)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail)](mailto:amar.idinarene@epita.fr)
 
 ---
