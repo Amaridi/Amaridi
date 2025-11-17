@@ -1,12 +1,12 @@
 # 👋 Hi, I'm **Amar Idinarene**
 
-🔹 Software Engineer | AI & Systems Enthusiast | Creative Technologist
+**Software Engineer | AI & Systems Enthusiast | Creative Technologist**
 
 3rd-year Computer Science Engineering Student @ EPITA (ING1)Former Exchange Student @ San Francisco State University (🇺🇸)Organizer @ Google Developer Student Club EPITA (GDSC)
----
+
 I design and build scalable, efficient, and intelligent software — from low-level algorithmic systems in C to applied machine learning, data-driven solutions, and polished mobile applications.
 
-Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling projects that combine engineering discipline, aesthetic design, and real-world impact.I lead a vibrant tech community of 200+ students at GDSC EPITA, sharing knowledge through talks, workshops, and collaborative projects.
+Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling projects that combine engineering discipline, aesthetic design, and real-world impact. I lead a vibrant tech community of 200+ students at GDSC EPITA, sharing knowledge through talks, workshops, and collaborative projects.
 ---
 
 ## 🚀 Core Focus: Software Engineering & Applied AI
