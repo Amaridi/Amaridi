@@ -34,10 +34,8 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 | **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing.                                          | C, Systems                   |
 | **HTTP Server Implementation**        | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling.                                                             | C, Networking                |
 
+
 ---
-
-
-
 
 ## 🛠️ Tech Stack
 
