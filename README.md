@@ -69,14 +69,6 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Amaridi&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&include_all_commits=true&count_private=true" width="48%" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Amaridi&theme=tokyonight&hide_border=true" width="48%" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=Amaridi&theme=tokyonight&no-frame=true&row=1&margin-w=10" width="100%" />
-
-<br><br>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amaridi&theme=tokyo-night&hide_border=true" width="100%" />
 
 </div>
