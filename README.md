@@ -24,20 +24,20 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 # 🧠 Projects Overview
 
 
-| Project                               | Description                                                        S                                                                    | Tech                         |
+| Project                               | Description            
+                                                                                                      | Tech                         |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
 | **Finance Predict-Action (AI LSTM)**  | LSTM forecasting model for stock closing prices (1-day horizon). Full pipeline: data collection, preprocessing, feature engineering, training, evaluation. | Python, TensorFlow, yfinance |
-| **Word Grid Solver**                  | Optimized backtracking solver for word grids with heuristics & pruning.                                                                                    | C                            |
-| **Finance Manager Dashboard**         | Visual dashboard for spending analysis and automatic categorization.                                                                                       | Python, DataViz              |
-| **iOS App Development**               | High-performance mobile UI with clean architecture (SwiftUI).    _                                                                               | Swift, SwiftUI               |
-| **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing.              _                         | C, Systems                   |
-| **HTTP Server Implementation**        | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling.                                                             | C, Networking      _          |
+| **Word Grid Solver**                  | Optimized backtracking solver for word grids with heuristics & pruning.                                                                  _ | C                            |
+| **Finance Manager Dashboard**         | Visual dashboard for spending analysis and automatic categorization.                                                                                | Python, DataViz              |
+| **Bill Splitter (Award-Winning App)** | Native iOS app for fair expense splitting. **Winner of the SFSU App Technology Award** for technical implementation, utility, and UI. | Swift, Xcode |
+| **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing.                                          | C, Systems                   |
+| **HTTP Server Implementation**        | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling.                                                             | C, Networking                |
 
 ---
 
 
 
----
 
 ## 🛠️ Tech Stack
 
@@ -77,11 +77,12 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 
 ## 🏆 Highlights & Achievements
 
+- 🏆 **Winner, App Technology Award (May 2025)** @ San Francisco State University
 - Selected as an **international exchange student** in the US  
 - Organizer of **Google Developer Student Club @ EPITA** (+200 students)  
 - Built optimized algorithms, ML models, and real mobile experiences  
 - Experience presenting workshops, leading tech communities, and teaching concepts  
-- Comfortable working in fast-paced, international engineering environments  
+- Comfortable working in fast-paced, international engineering environments
 
 ---
 
