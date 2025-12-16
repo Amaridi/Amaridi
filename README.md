@@ -27,11 +27,11 @@ Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling 
 | Project | Description | Tech |
 | --- | --- | --- |
 | **Finance Predict-Action (AI LSTM)** | LSTM forecasting model for stock closing prices (1-day horizon). Full pipeline: data collection, preprocessing, feature engineering, training, evaluation. | Python, TensorFlow, yfinance |
-| **Word Grid Solver** | Optimized backtracking solver for word grids with heuristics & pruning. | C |
+| **Word Grid Solver (school project)** | Optimized backtracking solver for word grids with heuristics & pruning. | C |
 | **Finance Manager Dashboard** | Visual dashboard for spending analysis and automatic categorization. | Python, DataViz |
 | **Bill Splitter (Award-Winning App)** | Native iOS app for fair expense splitting. **Winner of the SFSU App Technology Award** for technical implementation, utility, and UI. | Swift, Xcode |
-| **Custom malloc/free Implementation** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing. | C, Systems |
-| **HTTP Server Implementation** | Custom HTTP server handling GET/POST, socket networking, request parsing, connection handling. | C, Networking |
+| **Custom malloc/free Implementation (school project)** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing. | C, Systems |
+| **Capsule 2.0** | Linux HTTP/1.1 server in C leveraging epoll (EPOLLET) and non-blocking I/O to achieve scalable, low-latency handling of 10K+ concurrent connections. | C, Networking |
 
 
 ---
