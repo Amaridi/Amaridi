@@ -1,101 +1,71 @@
 # 👋 Hi, I'm **Amar Idinarene**
 
-**Software Engineer | AI & Systems Enthusiast | Creative Technologist**
+**Software Engineer | Systems & High-Performance AI | Creative Technologist**
 
-* 🎓 3rd-year Computer Science Engineering Student @ **[EPITA](https://www.epita.fr/)** (ING1)
-* 🇺🇸 Former Exchange Student @ **[San Francisco State University](https://www.sfsu.edu/)**
-* 🧑‍💻 Organizer @ **[Google Developer Student Club (GDSC) EPITA](https://gdg.community.dev/gdg-on-campus-epita-paris-france/)** (leading 200+ students)
+* 🎓 3th-year Computer Science Engineering Student @ **[EPITA](https://www.epita.fr/)** (Major: Systems & AI)
+* 🇺🇸 Former Exchange Student @ **[San Francisco State University](https://www.sfsu.edu/)** (GPA: 3.76/4.0)
+* 🧑‍💻 Technical Lead @ **[Google Developer Group (GDG) EPITA](https://gdg.community.dev/gdg-on-campus-epita-paris-france/)** (leading 200+ students)
 
-I design and build scalable, efficient, and intelligent software — from low-level algorithmic systems in C to applied machine learning, data-driven solutions, and polished mobile applications.
-
-Passionate about creativity, innovation, and entrepreneurship, I enjoy tackling projects that combine engineering discipline, aesthetic design, and real-world impact. I lead a vibrant tech community at GDSC EPITA, sharing knowledge through talks, workshops, and collaborative projects.
+I design and build scalable, efficient, and intelligent software — from low-level systems in C/C++ to high-throughput RAG pipelines and AI-driven infrastructure.
 
 ---
 
-## 🚀 Core Focus: Software Engineering & Applied AI
+## 🚀 Core Focus: Systems Engineering & Applied AI
 
-* **Systems & Low-Level:** Scalable C/C++ development and low-level optimization.
-* **Applied Machine Learning:** Deep Learning, sequence modeling (LSTMs), and data-driven solutions.
-* **Mobile Development:** High-quality, native mobile applications with Swift & SwiftUI.
-* **Data & Automation:** Data engineering, analytics, dashboards, and AI-enhanced tools.
+* **High-Performance Systems:** Scalable C/C++ development, memory management, and low-level optimization (epoll, mmap).
+* **AI Infrastructure (MLOps):** Building efficient RAG pipelines, vector search optimization, and LLM integration.
+* **Mobile & UX:** High-quality, native experiences with Swift & SwiftUI (Award-winning implementation).
+* **Tech Community:** Sharing knowledge through workshops on memory-safe C++ and Physical AI.
 
 ---
----
 
-## 🧠 Projects Overview
+## 🧠 Featured Projects
 
 | Project | Description | Tech |
 | --- | --- | --- |
-| **Finance Predict-Action (AI LSTM)** | LSTM forecasting model for stock closing prices (1-day horizon). Full pipeline: data collection, preprocessing, feature engineering, training, evaluation. | Python, TensorFlow, yfinance |
-| **Word Grid Solver (school project)** | Optimized backtracking solver for word grids with heuristics & pruning. | C |
-| **Finance Manager Dashboard** | Visual dashboard for spending analysis and automatic categorization. | Python, DataViz |
-| **Bill Splitter (Award-Winning App)** | Native iOS app for fair expense splitting. **Winner of the SFSU App Technology Award** for technical implementation, utility, and UI. | Swift, Xcode |
-| **Custom malloc/free Implementation (school project)** | Full memory allocator rewritten from scratch: block metadata, heap management, fragmentation control, coalescing. | C, Systems |
-| **Capsule 2.0** | Linux HTTP/1.1 server in C leveraging epoll (EPOLLET) and non-blocking I/O to achieve scalable, low-latency handling of 10K+ concurrent connections. | C, Networking |
-
+| **🚀 FinRAG Engine** | **High-performance Financial RAG.** Custom C++ core for text chunking/ingestion (30% faster than Python) + FAISS vector search for TB-scale data. | C++20, Python, FAISS, PyTorch |
+| **⚡ Capsule 2.0** | **Linux HTTP/1.1 Server.** Event-driven (Reactor Pattern) using `epoll` and non-blocking I/O. Handled **12,500+ RPS** on AWS EC2. | C, Networking, Linux |
+| **🛠️ Tiger Compiler** | Full compiler implementation from scratch: Lexical analysis, Parsing, and **LLVM IR generation** for optimized execution. | C++20, Flex, Bison, LLVM |
+| **🤖 Finance Predict-Action** | LSTM forecasting model for stock prices. End-to-end pipeline: feature engineering, training, and evaluation. | Python, TensorFlow, yfinance |
+| **📱 Bill Splitter** | Native iOS app for fair expense splitting. **Winner of the SFSU App Technology Award** (May 2025). | Swift, SwiftUI, Xcode |
+| **💎 Custom Malloc** | Thread-safe memory allocator: block metadata, heap management, and fragmentation control. | C, Systems |
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Languages:**
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![OCaml](https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=database&logoColor=white)
 
-**Domains:** Software Engineering • Machine Learning • Data Science • Systems • Mobile
-
-**Tools:**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**Tools & Infrastructure:**
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007AFF?style=for-the-badge&logo=xcode&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-222C37?style=for-the-badge&logo=unity&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
----
-
-## 📊 GitHub Insights
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaridi&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" />
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Amaridi&show_icons=true&theme=tokyonight&hide_border=true" />
-
-
-</div>
-
----
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ---
 
 ## 🏆 Highlights & Achievements
 
-- 🏆 **Winner, App Technology Award (May 2025)** @ San Francisco State University
-- Selected as an **international exchange student** in the US  
-- Organizer of **Google Developer Student Club @ EPITA** (+200 students)  
-- Built optimized algorithms, ML models, and real mobile experiences  
-- Experience presenting workshops, leading tech communities, and teaching concepts  
-- Comfortable working in fast-paced, international engineering environments
+- 🏆 **Winner, App Technology Award (May 2025)** @ San Francisco State University.
+- 🎓 **Top Performance:** 3.76 GPA @ SFSU (Magna Cum Laude).
+- 📢 **Tech Leadership:** Technical Lead of GDG @ EPITA (200+ students), organizing workshops on **Systems & AI**.
+- 🌍 **International:** Experienced in fast-paced, international engineering environments (USA & France).
 
 ---
 
 ## 🤝 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Amaridi)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amaridi)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Amaridi)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amaridi)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail)](mailto:amar.idinarene@epita.fr)
 
 ---
 
-<sub>Engineering intelligent systems with clarity, precision, and purpose.</sub>
+<sub>Engineering high-performance systems with clarity, precision, and purpose.</sub>
