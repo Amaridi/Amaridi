@@ -2,7 +2,7 @@
 
 **Software Engineer | Systems & High-Performance AI | Creative Technologist**
 
-* 🎓 3th-year Computer Science Engineering Student @ **[EPITA](https://www.epita.fr/)** (Major: Systems & AI)
+* 🎓 3rd-year Computer Science Engineering Student @ **[EPITA](https://www.epita.fr/)** (Major: Systems & AI)
 * 🇺🇸 Former Exchange Student @ **[San Francisco State University](https://www.sfsu.edu/)** (GPA: 3.76/4.0)
 * 🧑‍💻 Technical Lead @ **[Google Developer Group (GDG) EPITA](https://gdg.community.dev/gdg-on-campus-epita-paris-france/)** (leading 200+ students)
 
@@ -23,12 +23,14 @@ I design and build scalable, efficient, and intelligent software — from low-le
 
 | Project | Description | Tech |
 | --- | --- | --- |
+| **🐚 42sh (POSIX Shell)** | **Team Lead & Core Dev.** Built a POSIX-compliant shell in C. Architected the Lexer/Parser and AST for complex grammar, managing processes and file descriptors. | C, Linux, Autotools, Bash |
 | **🚀 FinRAG Engine** | **High-performance Financial RAG.** Custom C++ core for text chunking/ingestion (30% faster than Python) + FAISS vector search for TB-scale data. | C++20, Python, FAISS, PyTorch |
 | **⚡ Capsule 2.0** | **Linux HTTP/1.1 Server.** Event-driven (Reactor Pattern) using `epoll` and non-blocking I/O. Handled **12,500+ RPS** on AWS EC2. | C, Networking, Linux |
-| **🛠️ Tiger Compiler** | Full compiler implementation from scratch: Lexical analysis, Parsing, and **LLVM IR generation** for optimized execution. | C++20, Flex, Bison, LLVM |
-| **🤖 Finance Predict-Action** | LSTM forecasting model for stock prices. End-to-end pipeline: feature engineering, training, and evaluation. | Python, TensorFlow, yfinance |
+| **🛠️ Tiger Compiler** | **Full compiler implementation.** Built from scratch with Lexical analysis, Parsing, and **LLVM IR generation** for optimized hardware execution. | C++20, Flex, Bison, LLVM |
+| **💎 Custom Malloc** | **Thread-safe memory allocator.** Rewritten `malloc/free` with block metadata, heap management, coalescing, and fine-grained locking. | C, Systems |
 | **📱 Bill Splitter** | Native iOS app for fair expense splitting. **Winner of the SFSU App Technology Award** (May 2025). | Swift, SwiftUI, Xcode |
-| **💎 Custom Malloc** | Thread-safe memory allocator: block metadata, heap management, and fragmentation control. | C, Systems |
+
+> *💡 **Note on Academic Integrity:** The source code for EPITA core curriculum projects (42sh, Tiger Compiler, Custom Malloc) is hosted in private repositories to comply with anti-plagiarism policies. I am more than happy to discuss their architecture and do a live code walkthrough during interviews.*
 
 ---
 
