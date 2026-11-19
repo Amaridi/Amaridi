@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="190" viewBox="0 0 420 190">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff006e"><animate attributeName="stop-color" values="#ff006e;#ffbe0b;#ff006e" dur="4s" repeatCount="indefinite"/></stop><stop offset="100%" stop-color="#ffbe0b"><animate attributeName="stop-color" values="#ffbe0b;#ff006e;#ffbe0b" dur="4s" repeatCount="indefinite"/></stop></linearGradient>
+<radialGradient id="glow" cx="0.9" cy="0.1" r="0.6"><stop offset="0%" stop-color="#ff006e" stop-opacity="0.35"/><stop offset="100%" stop-color="#ff006e" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="420" height="190" rx="16"/></clipPath>
+</defs>
+<style>
+.n{font:700 22px 'Segoe UI',Ubuntu,sans-serif;fill:#fff}
+.s{font:600 12px 'Segoe UI',Ubuntu,sans-serif;fill:#ff006e;letter-spacing:2px;text-transform:uppercase}
+.d{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a9b1d6}
+.t{font:600 11px 'Segoe UI',Ubuntu,sans-serif;fill:#ff006e}
+.in{opacity:0;animation:up .7s ease forwards}
+.tag{opacity:0;animation:pop .5s ease forwards}
+.gl{animation:pulse 2.4s ease-in-out infinite;transform-origin:370px 50px}
+.scan{animation:scan 3.5s linear infinite}
+.border{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 2s ease forwards}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.18);opacity:1}}
+@keyframes scan{from{transform:translateX(-160px)}to{transform:translateX(580px)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+</style>
+<g clip-path="url(#c)">
+<rect width="420" height="190" fill="#0d1117"/>
+<rect width="420" height="190" fill="url(#glow)"/>
+<rect class="scan" x="0" y="0" width="80" height="190" fill="#fff" opacity="0.04" transform="skewX(-20)"/>
+<rect x="0" y="0" width="420" height="4" fill="url(#g)"/>
+</g>
+<rect class="border" x="1" y="1" width="418" height="188" rx="16" fill="none" stroke="url(#g)" stroke-width="2"/>
+<text class="gl" x="370" y="62" text-anchor="middle" font-size="34" font-family="Segoe UI,Ubuntu,monospace" font-weight="700" fill="url(#g)">★</text>
+<g class="in" style="animation-delay:.2s"><text x="24" y="40" class="s">iOS App</text></g>
+<g class="in" style="animation-delay:.35s"><text x="24" y="70" class="n">Bill Splitter</text></g>
+<g class="in" style="animation-delay:.55s"><text x="24" y="100" class="d"><tspan x="24" dy="0">Fair expense splitting. Winner — SFSU App</tspan><tspan x="24" dy="18">Technology Award 2025.</tspan></text></g>
+<g class="tag" style="animation-delay:0.9s"><rect x="24" y="150" rx="10" width="51.5" height="22" fill="#ff006e" fill-opacity="0.12" stroke="#ff006e" stroke-opacity="0.5"/><text x="49.75" y="165" text-anchor="middle" class="t">Swift</text></g><g class="tag" style="animation-delay:1.05s"><rect x="83.5" y="150" rx="10" width="66.5" height="22" fill="#ff006e" fill-opacity="0.12" stroke="#ff006e" stroke-opacity="0.5"/><text x="116.75" y="165" text-anchor="middle" class="t">SwiftUI</text></g><g class="tag" style="animation-delay:1.2s"><rect x="158.0" y="150" rx="10" width="36.5" height="22" fill="#ff006e" fill-opacity="0.12" stroke="#ff006e" stroke-opacity="0.5"/><text x="176.25" y="165" text-anchor="middle" class="t">iOS</text></g>
+</svg>
