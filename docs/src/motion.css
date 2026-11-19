@@ -1,0 +1,131 @@
+/*
+ * scroll-motion-site: styles for the motion helpers.
+ * Every scroll-linked rule reads its variable with a fallback equal to the final state,
+ * so the page is complete without JavaScript, in a non-scrolling preview and under
+ * prefers-reduced-motion. Rename the tokens to match the project's design system.
+ */
+:root {
+  --ground: #f4f4f7;
+  --surface: #ffffff;
+  --ink: #0b0c12;
+  --ink-soft: #50525f;
+  --ink-faint: #8a8c99;
+  --line: #d9d9e0;
+  --accent: #4b2fd6;
+  --accent-on-dark: #b9adff;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Triggered once: words of a heading. The script splits [data-words] into .wd spans. */
+.wd { display: inline-block; }
+.js [data-words] .wd {
+  opacity: 0;
+  transform: translateY(22px);
+  filter: blur(10px);
+  transition: opacity 0.7s ease, filter 0.7s ease, transform 0.7s var(--ease-out);
+}
+.js [data-words].in .wd { opacity: 1; transform: none; filter: blur(0); }
+.js [data-words][data-words="plain"] .wd { filter: none; }
+
+/* Linked to scroll. --e is entry progress, --p is the full pass through the viewport. */
+.draw { transform: scaleX(var(--e, 1)); transform-origin: 0 50%; }
+.lift { opacity: calc(0.15 + var(--e, 1) * 0.85); transform: translateY(calc((1 - var(--e, 1)) * 56px)); }
+.rise > * { opacity: var(--e, 1); transform: translateY(calc((1 - var(--e, 1)) * 60px)); }
+.rise > *:nth-child(n + 3) { transform: translateY(calc((1 - var(--e, 1)) * 90px)); }
+.tilt {
+  transform-origin: 50% 100%;
+  transform: rotateX(calc((1 - var(--e, 1)) * 26deg)) scale(calc(0.88 + var(--e, 1) * 0.12));
+  opacity: calc(0.25 + var(--e, 1) * 0.75);
+}
+.scanl {
+  position: absolute; top: 0; bottom: 0; width: 2px; background: var(--accent);
+  left: calc(var(--e, 1) * 100%); opacity: calc((1 - var(--e, 1)) * 4);
+}
+.from-left {
+  transform-origin: 0 50%;
+  transform: translateX(calc((1 - var(--e, 1)) * -110px)) rotateY(calc((1 - var(--e, 1)) * 24deg));
+  opacity: calc(0.2 + var(--e, 1) * 0.8);
+}
+.from-right {
+  transform-origin: 100% 50%;
+  transform: translateX(calc((1 - var(--e, 1)) * 110px)) rotateY(calc((1 - var(--e, 1)) * -24deg));
+  opacity: calc(0.2 + var(--e, 1) * 0.8);
+}
+.fill {
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--ink);
+  background: linear-gradient(90deg, var(--ink) calc(var(--e, 1) * 115% - 15%), transparent calc(var(--e, 1) * 115%)) no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.fill-y { transform-origin: 50% 0; transform: scaleY(clamp(0, calc((var(--p, 1) - 0.1) * 1.4), 1)); }
+.page-progress { transform-origin: 0 50%; transform: scaleX(var(--sp, 0)); }
+.hero-tilt {
+  transform-origin: 50% 0;
+  transform: rotateX(calc((1 - var(--h, 1)) * 16deg)) scale(calc(0.94 + var(--h, 1) * 0.06));
+}
+
+/* Words that light up one by one while the block crosses the viewport. Set by the script. */
+[data-reveal-words] .rw { opacity: clamp(0.16, calc((var(--p, 1) - 0.18) * var(--rw-k, 60) - var(--rw-i, 0)), 1); }
+
+/* Pile to grid. Put .tile on the .sc section and --dx --dy --r on each window. */
+.tile { --t: clamp(0, calc((var(--p, 1) - 0.2) * 4), 1); }
+.tile-item {
+  transform: translate(calc((1 - var(--t)) * var(--dx, 0%)), calc((1 - var(--t)) * var(--dy, 0%)))
+    rotate(calc((1 - var(--t)) * var(--r, 0deg))) scale(calc(1 + (1 - var(--t)) * 0.18));
+}
+
+/* Nav that hides on scroll down. */
+[data-hide-on-scroll] { transition: transform 0.35s ease; }
+[data-hide-on-scroll].is-hidden:not(:focus-within) { transform: translateY(-110%); }
+
+/* Marquee: the script repeats the content three times and moves it. */
+[data-marquee] { display: flex; width: max-content; white-space: nowrap; will-change: transform; }
+
+/* Spotlight that follows the pointer. Add an empty .spot-l inside [data-spot]. */
+[data-spot] { position: relative; }
+.spot-l {
+  position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity 0.3s ease;
+  background: radial-gradient(340px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--accent) 16%, transparent), transparent 70%);
+}
+@media (hover: hover) and (pointer: fine) { [data-spot]:hover .spot-l { opacity: 1; } }
+
+/* Dock magnification: children .dk grow with --s. */
+[data-dock] { display: flex; align-items: flex-end; gap: 10px; }
+.dk { flex: none; width: calc(46px * var(--s, 1)); height: calc(46px * var(--s, 1)); transition: width 0.14s ease-out, height 0.14s ease-out; }
+
+/* Buttons. Pill with a dot that grows to fill it on hover (after Magic UI's Interactive Hover Button). */
+.ihb {
+  position: relative; display: inline-flex; align-items: center; gap: 12px; overflow: hidden; box-sizing: border-box;
+  min-height: 50px; padding: 14px 26px 14px 22px; border-radius: 999px; border: 1px solid var(--ink);
+  background: transparent; color: var(--ink); font-weight: 500; font-size: 15px; text-decoration: none; cursor: pointer;
+}
+.ihb .d { width: 8px; height: 8px; border-radius: 50%; background: var(--ink); transition: transform 0.5s var(--ease-out); }
+.ihb .t { position: relative; transition: transform 0.3s ease, opacity 0.3s ease; }
+.ihb .h {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 10px;
+  color: var(--surface); transform: translateX(36px); opacity: 0; transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.ihb:hover .d, .ihb:focus-visible .d { transform: scale(110); }
+.ihb:hover .t, .ihb:focus-visible .t { transform: translateX(36px); opacity: 0; }
+.ihb:hover .h, .ihb:focus-visible .h { transform: none; opacity: 1; }
+.ihb.pri { background: var(--ink); color: var(--surface); }
+.ihb.pri .d { background: var(--accent-on-dark); }
+.ihb.pri .h { color: var(--ink); }
+.ihb.inv { border-color: rgba(255, 255, 255, 0.6); color: #ffffff; }
+.ihb.inv .d { background: #ffffff; }
+.ihb.inv .h { color: var(--ink); }
+
+/* Text link whose underline draws on hover. */
+.ul {
+  display: inline-flex; align-items: center; gap: 8px; padding: 12px 0; font-weight: 500; text-decoration: none; color: inherit;
+  background: linear-gradient(currentColor, currentColor) 0 calc(100% - 8px) / 0 1px no-repeat;
+  transition: background-size 0.35s ease;
+}
+.ul:hover, .ul:focus-visible { background-size: 100% 1px; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ihb .d, .ihb .t, .ihb .h, .ul, .dk, [data-hide-on-scroll] { transition: none; }
+}

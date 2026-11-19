@@ -1,15 +1,16 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5d4,50:7b2ff7,100:f72585&height=220&section=header&text=Amar%20Idinarene&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Systems%20%E2%80%A2%20High-Performance%20AI%20%E2%80%A2%20Creative%20Tech&descAlignY=58&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5d4,50:7b2ff7,100:f72585&height=220&section=header&text=Amar%20Idinarene&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Systems%20%E2%80%A2%20LLM%20Agents%20%E2%80%A2%20Full-Stack&descAlignY=58&descSize=18" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/Amaridi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&color=00F5D4&center=true&vCenter=true&width=720&lines=Software+Engineer+%40+EPITA+%F0%9F%8E%93;Low-level+C%2FC%2B%2B+%E2%80%94+epoll%2C+mmap%2C+LLVM+%E2%9A%99%EF%B8%8F;High-throughput+RAG+%26+AI+infra+%F0%9F%A7%A0;12%2C500%2B+RPS+on+a+hand-written+HTTP+server+%E2%9A%A1;Tech+Lead+%40+GDG+EPITA+(200%2B+students)+%F0%9F%9A%80" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&color=00F5D4&center=true&vCenter=true&width=720&lines=Full-Stack+Engineer+%40+DIV+Protocol+%F0%9F%94%90;Research+on+LLM+agent+reliability+%F0%9F%A7%A0;Paper+submitted+to+AAAI+2027+%F0%9F%93%84;12%2C500%2B+RPS+on+a+hand-written+HTTP+server+%E2%9A%A1;Tech+Lead+%40+GDG+EPITA+(200%2B+members)+%F0%9F%9A%80" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
+  <a href="https://amaridi.github.io/Amaridi/"><img src="https://img.shields.io/badge/Website-2340D9?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
   <a href="https://linkedin.com/in/amaridi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:amar.idinarene@epita.fr"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=Amaridi&style=for-the-badge&color=7b2ff7&label=PROFILE+VIEWS"/>
@@ -27,15 +28,16 @@
 
 ```cpp
 struct Amar {
-  std::string role     = "Software Engineer";
-  std::string school   = "EPITA — Major Systems & AI (3rd year)";
+  std::string now      = "Full-Stack Engineer @ DIV Protocol";
+  std::string school   = "EPITA — SCIA major (AI & Data Science), GPA 3.5";
   std::string exchange = "San Francisco State University (GPA 3.76)";
-  std::string lead     = "Technical Lead @ GDG EPITA — 200+ students";
+  std::string lead     = "Technical Lead @ GDG on Campus EPITA — 200+ members";
+  std::string research = "LLM agent reliability — paper submitted to AAAI 2027";
 
   std::vector<std::string> focus = {
-    "High-performance systems (C/C++, epoll, mmap)",
-    "AI infrastructure: RAG pipelines, vector search",
-    "Native mobile UX (Swift / SwiftUI)",
+    "LLM agents, multi-agent systems & agent evaluation",
+    "High-performance systems (C/C++, epoll, sendfile)",
+    "Secure full-stack (TypeScript, React, NestJS, PostgreSQL)",
   };
 
   auto motto() const {
@@ -50,6 +52,29 @@ struct Amar {
 </td>
 </tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
+
+<!-- ═══════════════════════════ NOW ═══════════════════════════ -->
+## 🔐 Right now
+
+**Full-Stack Engineer @ DIV Protocol** · Paris · Sep 2026 → present
+- Sovereign, zero-trust, end-to-end encrypted collaboration platform (calendar, mail, video), used by defense and drone companies.
+- **475 pull requests** and **213,000+ lines** shipped to production across the stack (TypeScript, React, NestJS, PostgreSQL).
+- Per-tenant HMAC service-to-service auth with anti-replay nonces, privileged-access auditing, field-level encryption.
+- Multi-agent development: orchestrating Claude Code sub-agents with structured dev workflows.
+- CI/CD and platform reliability, IMAP sync hardening (SSRF, malicious attachments), iCalendar/iMIP interop with Gmail, Outlook and Apple Calendar.
+
+## 📄 Research
+
+**Coverage-Driven User Intent Understanding** · with Cyprien Oudart · submitted to **AAAI 2027** (OpenReview, July 2026)
+
+| Weighted intent coverage | |
+|:--|--:|
+| **ALI pipeline (ours)** | **89.0 %** |
+| Claude Opus 4.8 | 58.4 % |
+
++30.6 pts · evaluated on 150 annotated prompts (κ = 0.749) and 3 real deployments: medical, software, finance (FinAgent).
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
@@ -78,11 +103,11 @@ struct Amar {
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,python,swift,bash,postgres,pytorch&perline=7" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,python,java,ts,swift,bash&perline=7" />
   </a>
   <br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,aws,git,cmake,vim&perline=7" />
+    <img src="https://skillicons.dev/icons?i=react,nestjs,postgres,linux,docker,aws,git&perline=7" />
   </a>
 </p>
 
@@ -133,10 +158,12 @@ struct Amar {
 
 | | |
 |:-:|:--|
-| 🏆 | **Winner — App Technology Award** @ San Francisco State University (May 2025) |
-| 🎓 | **3.76 GPA** @ SFSU — Magna Cum Laude |
-| 📢 | **Technical Lead, GDG EPITA** — workshops on memory-safe C++ & Physical AI for 200+ students |
-| 🌍 | Engineering experience across **USA 🇺🇸 & France 🇫🇷** |
+| 📄 | Paper on LLM agent intent understanding **submitted to AAAI 2027** |
+| 🏆 | **1st prize — App Technology Award** @ San Francisco State University (May 2025) |
+| 🎓 | **3.76 GPA** @ SFSU · **3.5 GPA** @ EPITA |
+| 📢 | **Technical Lead, GDG on Campus EPITA** — 200+ members, hackathon with HEC Paris (150 participants, $20k in prizes) |
+| ☁️ | **MCP & A2A Hackathon, AWS Edition** — top 20 %, voice AI agent built in one day |
+| 🌍 | Languages: French & Arabic (native), English (fluent) |
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <p align="center">
