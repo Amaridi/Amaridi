@@ -116,12 +116,6 @@ struct Amar {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amaridi&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00f5d4&line=7b2ff7&point=f72585&area=true&area_color=7b2ff7" width="100%"/>
 </p>
 
-### 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Amaridi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%"/>
-</p>
-
 ### 🐍 Commit snake
 
 <p align="center">
